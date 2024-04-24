@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+  <title>1º desafio - Aplicativo Calculadora de Idade</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="contanier">
+    <div class="input-flex">
+      <div class="input-contanier">
+        <span>Dia</span>
+        <input type="number" id="day">
+        <small class="error-day">O Dia é obrigatório</small>
+      </div>
+      <div class="input-contanier">
+        <span>Mês</span>
+        <input type="number" id="month">
+        <small class="error-month"></small>
+      </div>
+      <div class="input-contanier">
+        <span>Ano</span>
+        <input type="number" id="year">
+        <small class="error-year"></small>
+      </div>
+    </div>
+    <button class="submit-btn">
+      <img src="icon-arrow.svg" alt="">
+    </button>
+    <div class="output">
+      <h1><span class="output-year">--</span>Anos</h1>
+      <h1><span class="output-month">--</span>Meses</h1>
+      <h1><span class="output-day">--</span>Dias</h1>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
